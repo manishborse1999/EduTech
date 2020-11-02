@@ -13,7 +13,7 @@
 
 
     <style>
-    .modal {
+    .modal-content {
    background-image: url(images/bg.png);
 }
     .carousel-item .img-fluid{
@@ -85,33 +85,33 @@
     <div class="modal-dialog modal-dialog-centered" role="document">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="loginModalLongTitle">Login to EduTech</h5>
+                <h5 class="modal-title text-white" id="loginModalLongTitle">Login to EduTech</h5>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                 </button>
             </div>
             <div class="modal-body">
                 <form>
-                    <div class="form-group">
+                    <div class="form-group text-white">
                         <label for="exampleInputEmail1">Email address</label>
                         <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
                                placeholder="Enter email" required>
                         <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
                             else.</small>
                     </div>
-                    <div class="form-group">
+                    <div class="form-group text-white">
                         <label for="exampleInputPassword1">Password</label>
                         <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password"
                                required>
                     </div>
                     <button type="submit" class="btn btn-primary mx-3">Login</button>
-                    <button type="submit" class="btn btn-outline-primary float-right mx-3" data-toggle="modal"
+                    <button type="submit" class="btn btn-primary float-right mx-3" data-toggle="modal"
                             data-target="#signupModalCenter" data-dismiss="modal">Create Account
                     </button>
                 </form>
             </div>
             <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
             </div>
         </div>
     </div>
@@ -123,7 +123,7 @@
     <div class="modal-dialog modal-dialog-centered" role="document">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="signupModalLongTitle">Get an EduTech Account</h5>
+                <h5 class="modal-title text-white" id="signupModalLongTitle">Get an EduTech Account</h5>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                 </button>
@@ -131,35 +131,35 @@
             <div class="modal-body">
                 <form>
 
-                    <div class="form-group">
+                    <div class="form-group text-white">
                         <label for="exampleFormControlInput1">Enter your full name here</label>
                         <input type="text" class="form-control" id="name" placeholder="Enter Full Name" required>
                     </div>
 
-                    <div class="form-group">
+                    <div class="form-group text-white">
                         <label for="exampleFormControlInput1">Email address</label>
                         <input type="email" class="form-control" id="exampleFormControlInput1"
                                placeholder="name@example.com" required>
                     </div>
-                    <div class="form-group">
+                    <div class="form-group text-white">
                         <label for="exampleInputPassword1">Password</label>
                         <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password"
                                required>
                     </div>
-                    <div class="form-group">
+                    <div class="form-group text-white">
                         <label for="cexampleInputPassword1">Confirm Password</label>
                         <input type="password" class="form-control" id="cexampleInputPassword1"
                                placeholder="Confirm Password" required>
                     </div>
 
                     <button type="submit" class="btn btn-primary mx-3">Create Account</button>
-                    <button type="button" class="btn btn-outline-primary float-right mx-3" data-toggle="modal"
+                    <button type="button" class="btn btn-primary float-right mx-3" data-toggle="modal"
                             data-target="#loginModalCenter" data-dismiss="modal">Login
                     </button>
                 </form>
             </div>
             <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
             </div>
         </div>
     </div>
