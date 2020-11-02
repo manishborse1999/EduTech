@@ -8,8 +8,10 @@ Sample Web Page for EduTech.
 
 # 2.Login Page
 <img width="958" alt="l" src="https://user-images.githubusercontent.com/44261008/97874199-a77b8500-1d3e-11eb-8c57-632c159d48f9.png">
+
+# 3.Signup Page
 <img width="954" alt="s" src="https://user-images.githubusercontent.com/44261008/97874272-c548ea00-1d3e-11eb-82bd-76be49e9f049.png">
 
-# 3.Contact Page
+# 4.Contact Page
 <img width="982" alt="c1" src="https://user-images.githubusercontent.com/44261008/97874331-d8f45080-1d3e-11eb-96cd-c36980e141d9.png">
 <img width="961" alt="c2" src="https://user-images.githubusercontent.com/44261008/97874400-f32e2e80-1d3e-11eb-9a28-079cdaa45790.png">
